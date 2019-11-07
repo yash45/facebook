@@ -9,8 +9,14 @@ body {
   padding-top: 23px;
   font-weight: bold;
 }
+.signIn{
+  padding: 6px;
+}
+.signUp{
+  font-weight:bold;
+  font-family:'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+}
 .heads {
-  -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
   letter-spacing: normal;
   word-spacing: normal;
@@ -39,7 +45,6 @@ a {
   color: #385898;
   cursor: pointer;
   text-decoration: none;
-  padding:0px 0px 0px 10px;
 }
 .create_a {
   font-size: 15px;
@@ -47,6 +52,10 @@ a {
 }
 .forgotPass {
   color: #9cb4d8 !important;
+}
+
+#body{
+  padding-top:20px !important;
 }
 
 .email {
@@ -67,6 +76,7 @@ table {
 }
 table tr td {
   padding: 0 0 0 14px;
+  margin: 2px;
 }
 
 .loginbut input[type="submit"] {
@@ -86,8 +96,8 @@ table tr td {
 
 .forms {
   padding: 10px;
-  margin: 8px;
-  width: 194px;
+  margin: 8px 0px;
+  width: 201px;
   height: 40px;
   border-radius: 5px;
   background-color: #fff;
@@ -140,7 +150,6 @@ table tr td {
   background-color: #fff;
   color: #1c1e21;
   overflow: visible !important;
-  webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
   color: black;
   letter-spacing: normal;
@@ -166,7 +175,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: visible;
-  background-color: #333333;
 }
 
 li {
@@ -193,6 +201,7 @@ footer {
   font-family: "Freight Sans Bold", Helvetica, Arial, sans-serif !important;
   font-size: 12px !important;
   color: #777;
+  padding:0px;
 }
 
 .btn {
@@ -245,7 +254,6 @@ footer{
   font-size: 15px;
   font-weight: bold;
   margin-top: 10px;
-  padding-top: 15px;
   padding-bottom: 40px;
 }
 .list-group-item{
